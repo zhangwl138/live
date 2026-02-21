@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>直播入口</title>
+<script>
+var ua = navigator.userAgent.toLowerCase();
+if (ua.indexOf('micromessenger') !== -1) {
+    document.write("<h2 style='text-align:center;margin-top:50px;'>请点击右上角<br>选择“在浏览器中打开”观看直播</h2>");
+} else {
+    window.location.href = "https://m.dayro.cn/webIndex.jsp#/subPages/videoLiveDetail/videoLiveDetail?id=130";
+}
+</script>
+</head>
+<body>
+</body>
+</html>
